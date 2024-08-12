@@ -861,9 +861,6 @@
   "files": {
     "app.R": {
       "checksum": "cc993596f76b6d0f2e1ef3bb9a791e65"
-    },
-    "madlibs.R": {
-      "checksum": "cc993596f76b6d0f2e1ef3bb9a791e65"
     }
   },
   "users": null
