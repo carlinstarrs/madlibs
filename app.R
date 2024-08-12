@@ -1,7 +1,7 @@
 library(shiny)
 
 
-cat(glue::glue("Writing story...🤩"), file = stderror())
+cat(glue::glue("Writing story...🤩"), file = stderr())
 
 generate_story <- function(noun, verb, adjective, adverb) {
   glue::glue("
@@ -38,6 +38,6 @@ server <- function(input, output) {
 }
 
 
-cat(glue::glue("Finishing story...💀"), file = stderror())
+cat(glue::glue("Finishing story...💀"), file = stderr())
 
 shinyApp(ui = ui, server = server)
